@@ -1,0 +1,9 @@
+2022.03.30
+搭建项目基础架构
+参考资料
+https://github.com/YunaiV/ruoyi-vue-pro
+https://www.cnblogs.com/whoknows1/p/12131728.html
+https://www.cnblogs.com/cainiao-Shun666/p/15822262.html
+https://blog.csdn.net/nimoyaoww/article/details/82999057
+https://zhuanlan.zhihu.com/p/130475487
+https://www.ape-ask.com/read-6601.html
