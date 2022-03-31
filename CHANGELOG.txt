@@ -8,7 +8,9 @@ https://blog.csdn.net/nimoyaoww/article/details/82999057
 https://zhuanlan.zhihu.com/p/130475487
 https://www.ape-ask.com/read-6601.html
 
-/************************************************push测试***************************************/
-
 2022.03.31
 创建dev分支
+添加开源许可证
+参考资料
+http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html
+https://www.jianshu.com/p/388e856f82ef
