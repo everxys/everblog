@@ -10,10 +10,10 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>everblog-framework</module>
-    <module>everblog-server</module>
     <module>everblog-dependencies</module>
-    <module>everblog-framework</module>
+    <module>everblog-admin</module>
+    <module>everblog-web</module>
+    <module>everblog-core</module>
   </modules>
 
   <properties>
