@@ -1,4 +1,4 @@
-package com.ever.everblog.core.entity;
+package com.ever.everblog.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

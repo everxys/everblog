@@ -1,4 +1,4 @@
-package com.ever.everblog.web.controller;
+package com.ever.everblog.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.event.ApplicationReadyEvent;

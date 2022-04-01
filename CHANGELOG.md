@@ -1,3 +1,6 @@
+## 2022.04.01
+- 移动包位置
+
 ## 2022.03.31
 - 更改项目结构
 - 创建dev分支
@@ -15,6 +18,7 @@ Reference:
 - https://juejin.cn/post/6859197860320608269
 - https://stackoverflow.com/questions/48679637/why-component-scanning-does-not-work-for-spring-boot-unit-tests
 - https://stackoverflow.com/questions/63128209/enablejparepositories-is-not-detecting-or-autowired-of-repository-is-not-detec
+
 ## 2022.03.30
 - 搭建项目基础架构
 

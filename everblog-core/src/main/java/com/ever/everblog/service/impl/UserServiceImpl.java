@@ -1,8 +1,8 @@
-package com.ever.everblog.core.service.impl;
+package com.ever.everblog.service.impl;
 
-import com.ever.everblog.core.dao.SystemUserDao;
-import com.ever.everblog.core.entity.SystemUser;
-import com.ever.everblog.core.service.UserService;
+import com.ever.everblog.dao.SystemUserDao;
+import com.ever.everblog.entity.SystemUser;
+import com.ever.everblog.service.UserService;
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;

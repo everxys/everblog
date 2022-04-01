@@ -1,9 +1,10 @@
-package com.ever.everblog.web.controller;
+package com.ever.everblog.controller;
 
-import com.ever.everblog.core.entity.SystemUser;
-import com.ever.everblog.core.service.UserService;
+import com.ever.everblog.entity.SystemUser;
+import com.ever.everblog.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 import java.util.List;

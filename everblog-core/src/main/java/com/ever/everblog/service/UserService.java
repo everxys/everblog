@@ -1,10 +1,9 @@
-package com.ever.everblog.core.service;
+package com.ever.everblog.service;
 
-import com.ever.everblog.core.entity.SystemUser;
+import com.ever.everblog.entity.SystemUser;
 import java.util.List;
 
 public interface UserService {
 
   List<SystemUser> getUserList();
-
 }
