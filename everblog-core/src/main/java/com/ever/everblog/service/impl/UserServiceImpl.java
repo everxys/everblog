@@ -24,28 +24,28 @@ public class UserServiceImpl implements UserService {
   /**
    * 执行密码加密
    * @param password 原始密码
-   * @param salt 盐值
+   * @param token 密钥
    * @return 加密后的密文
    */
-  private String getMd5Password(String password, String salt) {
+  private String getMd5Password(String password, String token) {
     /*
      * 加密规则：
      * 1、无视原始密码的强度
-     * 2、使用UUID作为盐值，在原始密码的左右两侧拼接
+     * 2、使用UUID作为token，在原始密码的左右两侧拼接
      * 3、循环加密3次
      */
     for (int i = 0; i < 3; i++) {
-      password = DigestUtils.md5DigestAsHex((salt + password + salt).getBytes()).toUpperCase();
+      password = DigestUtils.md5DigestAsHex((token + password + token).getBytes()).toUpperCase();
     }
     return password;
   }
 
   /**
-   * 自动生成token
-   * @return 加密后的密文
+   * 生成token
+   * @return 随机生成的token
    */
   private String getToken(){
-    String salt = UUID.randomUUID().toString().toUpperCase();
-    return salt;
+    String token = UUID.randomUUID().toString().toUpperCase();
+    return token;
   }
 }
