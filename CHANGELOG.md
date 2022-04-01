@@ -3,6 +3,10 @@
 - 增加密码加密方法
 - 增加token生成方法
 - 添加framework模块
+- 添加JsonUtils，待补充
+
+Reference:
+- https://www.choupangxia.com/2021/02/23/jackson/
 
 ## 2022.03.31
 - 更改项目结构

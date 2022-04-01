@@ -1,4 +1,4 @@
-package com.ever.everblog.util;
+package com.ever.everblog.util.encode;
 
 import java.util.UUID;
 import org.springframework.util.DigestUtils;
@@ -15,7 +15,7 @@ public class EncryptUtil {
     /*
      * 加密规则：
      * 1、无视原始密码的强度
-     * 2、使用UUID作为token，在原始密码的左右两侧拼接
+     * 2、使用UUID作为token，在原始密码的左右两侧
      * 3、循环加密3次
      */
     for (int i = 0; i < 3; i++) {
