@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController implements ApplicationListener<ApplicationReadyEvent> {
 
-  @GetMapping("/hello")
-  public String helloWorld(){
-    return "Hello,world!";
-  }
+    @GetMapping("/hello")
+    public String helloWorld() {
+        return "Hello,world!";
+    }
 
-  @Override
-  public void onApplicationEvent(ApplicationReadyEvent event) {
-    log.info("Hello,world!");
-  }
+    @Override
+    public void onApplicationEvent(ApplicationReadyEvent event) {
+        log.info("Hello,world!");
+    }
 
 }

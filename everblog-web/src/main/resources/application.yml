@@ -1,8 +1,8 @@
 spring:
-  profiles:
-    active: dev
+    profiles:
+        active: dev
 
 everblog:
-  info:
-    version: 1.0-SNAPSHOT
-    base-package: com.ever.everblog
+    info:
+        version: 1.0-SNAPSHOT
+        base-package: com.ever.everblog

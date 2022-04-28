@@ -1,17 +1,17 @@
 server:
-  port: 8090
+    port: 8090
 
 spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/everblog?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  jpa:
-    database: mysql
-    show-sql: true
-    format_sql: true
-    hibernate:
-      ddl-auto: update
-      naming:
-        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    datasource:
+        url: jdbc:mysql://localhost:3306/everblog?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    jpa:
+        database: mysql
+        show-sql: true
+        format_sql: true
+        hibernate:
+            ddl-auto: update
+            naming:
+                physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
