@@ -10,11 +10,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>everblog-dependencies</module>
-        <module>everblog-admin</module>
         <module>everblog-web</module>
         <module>everblog-core</module>
-        <module>everblog-framework</module>
     </modules>
 
     <properties>
@@ -24,17 +21,52 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+
         <lombok.version>1.18.22</lombok.version>
+        <spring-boot.version>2.6.5</spring-boot.version>
+        <lombok.version>1.18.22</lombok.version>
+        <mysql.version>8.0.27</mysql.version>
+        <jackson.version>2.13.2</jackson.version>
+        <commons-io>2.11.0</commons-io>
+
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <artifactId>everblog-dependencies</artifactId>
-                <groupId>com.ever</groupId>
-                <version>${revision}</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

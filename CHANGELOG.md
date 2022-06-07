@@ -1,7 +1,15 @@
+## 2022.06.07
+- 完善.gitignore
+- 简化项目结构
+- 添加ImageController
+
+REF:
+- https://www.toptal.com/developers/gitignore
+
 ## 2022.04.28
 - 使用空格替换tab
 
-Reference:
+REF:
 - 写代码时，缩进使用 tab 还是空格？ - 知乎
   https://www.zhihu.com/question/19960028
 
@@ -16,7 +24,7 @@ Reference:
 - 添加framework模块
 - 添加JsonUtils，待补充
 
-Reference:
+REF:
 - https://www.choupangxia.com/2021/02/23/jackson/
 
 ## 2022.03.31
@@ -27,7 +35,7 @@ Reference:
 - 更新README
 - SystemUser及其操作
 
-Reference:
+REF:
 - https://github.com/zhangyd-c/OneBlog
 - https://docs.zhyd.me/about.html
 - http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html
@@ -40,7 +48,7 @@ Reference:
 ## 2022.03.30
 - 搭建项目基础架构
 
-Reference:
+REF:
 - https://github.com/YunaiV/ruoyi-vue-pro
 - https://www.cnblogs.com/whoknows1/p/12131728.html
 - https://www.cnblogs.com/cainiao-Shun666/p/15822262.html
